@@ -3,10 +3,12 @@
 ROS publisher node for SemanticKITTI dataset  
 video: https://youtu.be/eKNi2yuQOxc
 
-## dependencies
+## Dependencies
 rospy  
 numpy
 
+
+## Usage
 
 (1) download SemanticKITTI dataset  
 http://semantic-kitti.org/index.html
