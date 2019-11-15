@@ -1,7 +1,6 @@
 # SemanticKITTI ros Publisher
 
 ROS publisher node for SemanticKITTI dataset  
-
 video: https://youtu.be/eKNi2yuQOxc
 
 ## dependencies
@@ -19,5 +18,3 @@ python main.py -d (dataset_path) -s (sequence_id)
 ```sh
 ex) python main.py -d /home/dongwonshin/Desktop/dataset/KITTI_odometry/dataset/sequences -s 00
 ```
-
-
