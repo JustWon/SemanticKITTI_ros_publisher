@@ -1,7 +1,23 @@
 # SemanticKITTI ros Publisher
 
-ROS publisher node for SemanticKITTI dataset
+ROS publisher node for SemanticKITTI dataset  
+
+video: https://youtu.be/eKNi2yuQOxc
+
+## dependencies
+rospy  
+numpy
+
+
+(1) download SemanticKITTI dataset  
 http://semantic-kitti.org/index.html
 
 
-<iframe width="640" height="360" src="https://youtu.be/eKNi2yuQOxc" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+(2) type the following command  
+
+python main.py -d (dataset_path) -s (sequence_id)  
+```sh
+ex) python main.py -d /home/dongwonshin/Desktop/dataset/KITTI_odometry/dataset/sequences -s 00
+```
+
+
